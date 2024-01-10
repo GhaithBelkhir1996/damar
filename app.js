@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 
 app.get('/api', (req, res) => {
-  res.json({ success: false });
+  res.json({ success: true });
 });
 
 app.listen(port, () => {
